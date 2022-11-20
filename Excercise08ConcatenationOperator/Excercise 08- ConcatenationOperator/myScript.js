@@ -15,7 +15,9 @@ document.write("<br>");
 
 // add number & string
 
-var x = 5;
+
+var y=2;
+var x = '5';
 //var t = "5";
 var t = "Hello";
 var z = t + x; 
@@ -24,3 +26,5 @@ document.write(z);
 document.write("<br>");
 
 
+document.write(x+2);
+document.write("<br>");

@@ -1,6 +1,6 @@
-// JavaScript Self Executing Anonymous Function
+//JavaScript Self Executing Anonymous Function
 
-// self executing anonymous function
+//self executing anonymous function
 (function() {
 	
 	alert("Auto show up message");
@@ -8,7 +8,12 @@
 })();
 
 
-// alternate syntax 
+
+(function(){
+	console.log('ss')
+})()
+
+// // alternate syntax 
 (function() {
 	
 	alert("Auto show up message 2");
@@ -20,11 +25,11 @@
 (function(x, y) {
 	
 	alert ("Sum of x & y: " + (x+y));
-	
+		
 })(10, 50);
 
 
-// self executing function with return
+//self executing function with return
 
 var  sum = (function(x, y) {
 	

@@ -13,36 +13,31 @@
     
 */
 
-var myFirstName;
-myFirstName = 'ali';
-
-console.log(myFirstName)
 // assignment operator
-var x = 50;
+// var x = 50;
 
 // // addition assignment operator
-  x += 20;
+//  x += 20;
 
- console.log(x)
- x += 5;    
-  x = x + 5;
+// console.log(x)
+//  x += 5;   //x = x + 5;
 
  
-console.log(x)
+// console.log(x)
 
 
-document.write("Addition assignment: ");
-document.write(x+'<br/>');
+// document.write("Addition assignment: ");
+// document.write(x);
 
 // document.write("<br>");     //html line break
 
 
-//subtraction assignment operator
-var x = 20;
- x -= 5;  
- x = x - 5;
-document.write("Subtraction assignment: ");
-document.write(x +'<br/>');
+// subtraction assignment operator
+// var x = 20;
+// // x -= 5;  
+//  x = x - 5;
+// document.write("Subtraction assignment: ");
+// document.write(x);
 
 // document.write("<br>");     //html line break
 
@@ -53,11 +48,9 @@ document.write("Multiplication assignment: ");
 document.write(x);
 document.write("<br>");     //html line break
 // // division assignment operator
-                                                                      
-document.write("Division assignment: ");
-
 var x = 20;
- x /= 5;   //x = x / 5;
+ x /= 5;  //x hdh= x / 5;
+document.write("Division assignment: ");
 document.write(x);
 document.write("<br>");     //html line break
 // // modulus assignment operator

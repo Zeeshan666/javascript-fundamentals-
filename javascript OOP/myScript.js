@@ -7,6 +7,7 @@ var book1 ={
     year:"2014",
 
     getsumary: function(){
+        console.log(this);
         return `${this.title} is written  by ${this.author} on this ${this.year};
         `
     }
@@ -19,13 +20,21 @@ var book2 ={
     author:" queen maxy",
     year:"2016",
     getsumary: function(){
+        console.log(this);
                 return `${this.title} is written  by ${this.author} on this ${this.year}; `
     }
 }
 console.log(Object.keys(book2));
 console.log(Object.values(book2));
 console.log(book2.getsumary());
-console.log(book1.year);
+// console.log(book1.year);
 
-console.log(book1["year"]);
-console.log(book1);
+// console.log(book1["year"]);
+// console.log(book1);
+// console.log(this);
+// ;
+
+
+
+
+

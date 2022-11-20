@@ -13,8 +13,8 @@ myFunction1();
 document.write("x = " + x  + " accessed outside of a function.<br>");
 
 
-// local scope
-// function scope
+// // local scope
+// // function scope
 
 function myFunction2() {
 	
@@ -24,9 +24,9 @@ function myFunction2() {
 	
 }
 myFunction2();
-//document.write("y = " + y  + " accessed outside of function.<br>");
+// //document.write("y = " + y  + " accessed outside of function.<br>");
 
-// automatically global
+// // automatically global
 function myFunction3() {
 	
 	// automatically global - just by initialization
@@ -35,4 +35,4 @@ function myFunction3() {
 	
 }
 myFunction3();
-document.write("z = " + 1000  + " accessed outside of function.<br>");
+document.write("z = " + z  + " accessed outside of function.<br>");

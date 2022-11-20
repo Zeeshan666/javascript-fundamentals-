@@ -17,7 +17,7 @@ document.write(z + "<br>");
 
 // conditional statement
 
-if(true) {
+if(true===z) {
     
     document.write("Condition with true state.<br>");
     

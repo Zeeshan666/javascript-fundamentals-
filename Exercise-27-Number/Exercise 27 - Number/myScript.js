@@ -13,7 +13,7 @@ var n = 15.5;
 document.write(n + "<br>");
 
 // check for valid number
-var numberCheck = 20 + "t";
+var numberCheck = 20 ;
 document.write(numberCheck + " is not valid number: " + isNaN(numberCheck) + "<br>");
 
 // to string
@@ -29,7 +29,14 @@ document.write(exp.toExponential(2)+"<br/>")
 //toFixed() returns a string, with the number written with a specified number of decimals:
 
 
-document.write(exp.toFixed(2) +"<br/>")
+document.write(exp.toFixed(1) +"<br/>")
 
 
 document.write(exp.toFixed(4) +"<br/>")
+
+
+var test =3.2
+console.log(Math.ceil(test))
+
+var test =3.2
+console.log(Math.floor(test))

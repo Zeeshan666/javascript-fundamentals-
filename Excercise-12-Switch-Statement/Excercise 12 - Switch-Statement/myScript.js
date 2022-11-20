@@ -23,22 +23,53 @@ var studentGrade =prompt("enter your grade");
 */
 
 // switch statment
-
+var a = prompt(Enter your number);
 switch(studentGrade) {
         
-        case 'A':
+        case '80':
 			document.write("Grade A student.");
 			break;
         
-        case 'B':
+        case '70':
 			document.write("Grade B student.");
 			break;
         
-        case 'C':
+        case '60':
 			document.write("Grade C student.");
+			break;
+        case '50':
+			document.write("Grade D student.");
 			break;
         
         default:
-			document.write("No grade found.");
+			document.write(
+                "No grade found.");
         
+}
+
+
+
+switch('a'){
+    case '80':
+        document.write("Grade A student.");
+        break;
+    
+    case '70':
+        document.write("Grade B student.");
+        break;
+    
+    case '60':
+        document.write("Grade C student.");
+        break;
+    case '50':
+        document.write("Grade D student.");
+        break;
+        case 'a':
+            document.write("Grade D student.");
+            break;
+    
+    default:
+        document.write(
+            "No grade found.");
+
 }

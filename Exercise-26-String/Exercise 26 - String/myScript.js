@@ -4,7 +4,7 @@
 
 var ss = new String("This is America");
 
-document.write(ss + "<br>");
+document.write(typeof(ss) + "<br>");
 
 var s = "This is USA";
 
@@ -27,11 +27,11 @@ var myQuestion = "Where do you live?";
 // lenght of string
 document.write("Lenght: " + myQuestion.length + "<br>");
 
-// index of
-var z=prompt("enter the index of string");
-document.write("Index Of: " + myQuestion.indexOf(z) + "<br>");
+// // index of
+// var z=prompt("enter the index of string");
+// document.write("Index Of: " + myQuestion.indexOf(z) + "<br>");
 
-// sbu string
+// // sbu string
 var y=+prompt("enter the index of string to crop");
 var x=+prompt("limit the index of string");
 document.write(myQuestion.slice(y, x) + "<br>");
@@ -39,14 +39,14 @@ document.write(myQuestion.slice(y, x) + "<br>");
 // replace string
 document.write(myQuestion.replace("live", "go") + "<br>");
 
-// uppercase
-document.write(myQuestion.toUpperCase() + "<br>");
+// // uppercase
+ document.write(myQuestion.toUpperCase() + "<br>");
 
-// lowercase
-document.write(myQuestion.toLowerCase() + "<br>");
+// // lowercase
+ document.write(myQuestion.toLowerCase() + "<br>");
 
-// character at
-document.write(myQuestion.charAt(2) + "<br>");
+// // character at
+ document.write(myQuestion.charAt(2) + "<br>");
 
 
 
